@@ -1,0 +1,473 @@
+# Source of truth for the README. Edit this file, then run:
+#   python scripts/build_readme.py
+#
+# Scores (1-5) — see RANKING.md for the rubric:
+#   relevance    how directly it serves someone doing / pursuing FDE work
+#   depth        how much real substance it carries
+#   practicality how actionable it is (templates, questions, code, steps)
+#   authority    first-hand operator or primary source vs. secondhand summary
+#   recency      how current it is for the 2025-26 AI-era FDE role
+#
+# `summary` is extracted from the source itself — keep it one or two lines.
+
+categories:
+  - id: understand
+    title: "1. Understand the Role"
+    blurb: "What an FDE is, where the role came from, and how it differs from SWE, solutions engineering and consulting."
+  - id: why-now
+    title: "2. Why FDEs Are in Demand Now"
+    blurb: "The business case: why AI companies trade margin for moat and hire FDEs at scale."
+  - id: field
+    title: "3. Doing the Job Well"
+    blurb: "Operator writing on how good FDEs actually work in the field."
+  - id: interview
+    title: "4. Interview Preparation"
+    blurb: "Round-by-round guides and question banks. Pair these with the practice set in /interview."
+  - id: ai-stack
+    title: "5. Technical Stack: Applied AI"
+    blurb: "The AI-engineering core most FDE roles now test: agents, evals, RAG, tool use."
+  - id: data-systems
+    title: "6. Technical Stack: Data, Systems & Integration"
+    blurb: "Enterprise data and integration fundamentals — the part of the job that eats most of the calendar."
+  - id: soft-stack
+    title: "7. The Soft Stack: Discovery, Communication, Consulting"
+    blurb: "Customer discovery, structured thinking and trust — what separates FDEs from strong backend engineers."
+  - id: roadmaps
+    title: "8. Roadmaps & Other Curated Lists"
+    blurb: "Other community repos worth knowing, with what each is best for."
+  - id: jobs
+    title: "9. Jobs, Market Data & Compensation"
+    blurb: "Where FDE roles are posted and what the market pays."
+
+resources:
+  # ---------------- 1. Understand the role ----------------
+  - title: "Dev versus Delta: Demystifying engineering roles at Palantir"
+    url: https://blog.palantir.com/dev-versus-delta-demystifying-engineering-roles-at-palantir-ad44c2a6e87
+    author: Palantir
+    year: 2019
+    type: article
+    category: understand
+    summary: "The original definition. Devs build the platform for many customers; Deltas (FDSEs) deploy it to deliver outcomes for one — decomposition, autonomy and user empathy are the core skills."
+    scores: {relevance: 5, depth: 4, practicality: 3, authority: 5, recency: 2}
+
+  - title: "A Day in the Life of a Palantir Forward Deployed Software Engineer"
+    url: https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1
+    author: Palantir
+    year: 2020
+    type: article
+    category: understand
+    summary: "Hour-by-hour view of an FDSE's day on a customer site — useful to test whether the rhythm of the job suits you."
+    scores: {relevance: 5, depth: 3, practicality: 3, authority: 5, recency: 2}
+
+  - title: "What are Forward Deployed Engineers, and why are they so in demand?"
+    url: https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers
+    author: Gergely Orosz (The Pragmatic Engineer)
+    year: 2025
+    type: newsletter
+    category: understand
+    summary: "The best single overview: what FDEs do, how OpenAI, Ramp and Palantir structure the teams, and how the role differs from solutions architects. Partly paywalled."
+    scores: {relevance: 5, depth: 5, practicality: 3, authority: 5, recency: 4}
+
+  - title: "WTF is a forward deployed engineer? (and why everyone is hiring them)"
+    url: https://posthog.com/blog/forward-deployed-engineer
+    author: Jina Yoon (PostHog)
+    year: 2026
+    type: article
+    category: understand
+    summary: "Plain-English explainer; notes FDEs spend roughly 60-80% of their time with customers and optimise for depth over generality."
+    scores: {relevance: 5, depth: 3, practicality: 3, authority: 4, recency: 5}
+
+  - title: "Reflections on Palantir"
+    url: https://nabeelqu.co/reflections-on-palantir
+    author: Nabeel S. Qureshi
+    year: 2024
+    type: essay
+    category: understand
+    summary: "Eight years inside Palantir. The best first-hand account of the culture that invented forward deployment and why it worked."
+    scores: {relevance: 4, depth: 5, practicality: 2, authority: 5, recency: 3}
+
+  - title: "Forward Deployed Engineer (Wikipedia)"
+    url: https://en.wikipedia.org/wiki/Forward_Deployed_Engineer
+    author: Wikipedia
+    year: 2026
+    type: reference
+    category: understand
+    summary: "Neutral reference for history and terminology (FDE, FDSE, Delta, deployment strategist)."
+    scores: {relevance: 4, depth: 2, practicality: 1, authority: 3, recency: 4}
+
+  # ---------------- 2. Why now ----------------
+  - title: "Trading Margin for Moat: Why the Forward Deployed Engineer Is the Hottest Job in Startups"
+    url: https://a16z.com/services-led-growth/
+    author: Joe Schmidt (a16z)
+    year: 2025
+    type: essay
+    category: why-now
+    summary: "The investor thesis: services-led growth beats pure PLG for enterprise AI, because the team that implements owns the data layer."
+    scores: {relevance: 5, depth: 4, practicality: 2, authority: 5, recency: 4}
+
+  - title: "Forward Deployed Engineers"
+    url: https://www.svpg.com/forward-deployed-engineers/
+    author: Marty Cagan (SVPG)
+    year: 2025
+    type: essay
+    category: why-now
+    summary: "Product-management view: FDEs are a discovery engine. Learn across many customers, then feed one product — accelerated by AI prototyping."
+    scores: {relevance: 4, depth: 3, practicality: 3, authority: 5, recency: 4}
+
+  - title: "Why OpenAI and Anthropic are hiring forward deployed engineer teams"
+    url: https://thenewstack.io/forward-deployed-engineers-ai/
+    author: The New Stack
+    year: 2025
+    type: article
+    category: why-now
+    summary: "How frontier labs use FDEs to get enterprise LLM projects from pilot to production."
+    scores: {relevance: 5, depth: 3, practicality: 2, authority: 3, recency: 4}
+
+  - title: "Forward-deployed engineers are the AI industry's latest talent obsession"
+    url: https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/
+    author: TechCrunch
+    year: 2026
+    type: news
+    category: why-now
+    summary: "Market numbers: share of companies planning to hire FDEs jumped from 5-10% to about 70% in the first half of 2026."
+    scores: {relevance: 4, depth: 2, practicality: 1, authority: 4, recency: 5}
+
+  - title: "Head of Forward Deployed Engineering at OpenAI: Trust. Product. Impact."
+    url: https://www.youtube.com/watch?v=cBD7_R-Cizg
+    author: Colin Jarvis (OpenAI)
+    year: 2025
+    type: video
+    category: why-now
+    summary: "The leader of OpenAI's FDE function on how the team gets customers to production and what it looks for."
+    scores: {relevance: 5, depth: 3, practicality: 3, authority: 5, recency: 4}
+
+  # ---------------- 3. Field ----------------
+  - title: "The Rise of the Forward Deployed Engineer — and How To Do the Job Right"
+    url: https://www.latent.space/p/forward-deployed-engineer-best-practices
+    author: Vinoo Ganesh (Latent Space)
+    year: 2026
+    type: essay
+    category: field
+    summary: "Operator playbook: map the customer's 'nouns and verbs', report to product not sales, and treat an engagement that changes nothing upstream as a failure."
+    scores: {relevance: 5, depth: 5, practicality: 5, authority: 5, recency: 5}
+
+  - title: "Forward Deployed Engineering: Bringing Enterprise LLM Applications to Production"
+    url: https://www.zenml.io/llmops-database/forward-deployed-engineering-bringing-enterprise-llm-applications-to-production
+    author: ZenML LLMOps Database (OpenAI case)
+    year: 2025
+    type: case-study
+    category: field
+    summary: "How OpenAI's FDE team runs engagements: domain depth, eval-driven development, AI plus deterministic code — and how field work became products like the Agents SDK."
+    scores: {relevance: 5, depth: 4, practicality: 4, authority: 3, recency: 4}
+
+  - title: "Inside OpenAI's Forward Deployed Engineer Role"
+    url: https://newsletter.eng-leadership.com/p/inside-openais-forward-deployed-engineer
+    author: Engineering Leadership newsletter
+    year: 2025
+    type: newsletter
+    category: field
+    summary: "Interview-style breakdown of day-to-day work, success metrics and hiring bar for OpenAI FDEs."
+    scores: {relevance: 5, depth: 4, practicality: 3, authority: 4, recency: 4}
+
+  - title: "What a Forward-Deployed Engineer Actually Does at Palantir, Runway, and Greptile"
+    url: https://www.paraform.com/insights/forward-deployed-engineer-palantir-runway-greptile
+    author: Paraform
+    year: 2026
+    type: article
+    category: field
+    summary: "Side-by-side of the role at three very different companies — useful for picking which flavour of FDE fits you."
+    scores: {relevance: 5, depth: 3, practicality: 3, authority: 3, recency: 5}
+
+  - title: "Forward Deployed Engineer vs Applied AI Engineer"
+    url: https://fde.academy/blog/forward-deployed-engineer-vs-applied-ai-engineer
+    author: FDE Academy
+    year: 2026
+    type: article
+    category: field
+    summary: "Clarifies two titles that are often confused in job posts; helps you target applications."
+    scores: {relevance: 5, depth: 2, practicality: 3, authority: 2, recency: 5}
+
+  # ---------------- 4. Interview ----------------
+  - title: "Forward Deployed Engineer Interview: The Definitive 2026 Guide"
+    url: https://www.tryexponent.com/blog/forward-deployed-engineer-interview-the-definitive-2026-guide-fde
+    author: Aced (formerly Exponent)
+    year: 2026
+    type: guide
+    category: interview
+    summary: "The most complete round-by-round map: recruiter, HM, practical coding, system design, decomposition case, client simulation, behavioural."
+    scores: {relevance: 5, depth: 5, practicality: 5, authority: 4, recency: 5}
+
+  - title: "Forward Deployed Engineer Interview Guide 2026: Complete Prep"
+    url: https://www.sundeepteki.org/advice/the-definitive-guide-to-forward-deployed-engineer-interviews-in-2026
+    author: Sundeep Teki
+    year: 2026
+    type: guide
+    category: interview
+    summary: "Prep plan with an AI-lab slant — how OpenAI/Anthropic-style FDE loops differ from Palantir's."
+    scores: {relevance: 5, depth: 4, practicality: 4, authority: 3, recency: 5}
+
+  - title: "The forward-deployed engineer interview guide"
+    url: https://joinplank.com/forward-deployed-engineer/interview-guide
+    author: Plank
+    year: 2026
+    type: guide
+    category: interview
+    summary: "Concise guide focused on the decomposition and customer-simulation rounds most candidates under-prepare for."
+    scores: {relevance: 5, depth: 3, practicality: 4, authority: 3, recency: 5}
+
+  - title: "Forward Deployed Engineer role — interview prep (awesome-generative-ai-guide)"
+    url: https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/interview_prep/roles/forward-deployed-engineer/README.md
+    author: Aishwarya Naresh Reganti
+    year: 2025
+    type: repo
+    category: interview
+    summary: "Question bank inside a well-known GenAI repo; strongest on the applied-AI technical questions."
+    scores: {relevance: 5, depth: 3, practicality: 4, authority: 4, recency: 4}
+
+  - title: "ElevenLabs Forward Deployed Engineer Interview Guide"
+    url: https://www.tryexponent.com/guides/elevenlabs-forward-deployed-engineer-interview
+    author: Aced (formerly Exponent)
+    year: 2026
+    type: guide
+    category: interview
+    summary: "Company-specific loop and sample questions — a good model of what an AI-startup FDE loop looks like."
+    scores: {relevance: 4, depth: 3, practicality: 4, authority: 3, recency: 5}
+
+  # ---------------- 5. Applied AI ----------------
+  - title: "Building Effective AI Agents"
+    url: https://www.anthropic.com/engineering/building-effective-agents
+    author: Anthropic
+    year: 2024
+    type: article
+    category: ai-stack
+    summary: "Workflows vs. agents, and five composable patterns (prompt chaining, routing, parallelisation, orchestrator-workers, evaluator-optimiser). Start simple."
+    scores: {relevance: 4, depth: 5, practicality: 5, authority: 5, recency: 4}
+
+  - title: "12-Factor Agents"
+    url: https://github.com/humanlayer/12-factor-agents
+    author: HumanLayer (Dex Horthy)
+    year: 2025
+    type: repo
+    category: ai-stack
+    summary: "Principles for LLM software that is reliable enough to hand to production customers — own your prompts, context and control flow."
+    scores: {relevance: 4, depth: 5, practicality: 5, authority: 4, recency: 4}
+
+  - title: "Your AI Product Needs Evals"
+    url: https://hamel.dev/blog/posts/evals/
+    author: Hamel Husain
+    year: 2024
+    type: article
+    category: ai-stack
+    summary: "Why unit tests, human review and LLM-as-judge are the backbone of shipping AI to customers. Evals are how FDEs prove ROI."
+    scores: {relevance: 4, depth: 5, practicality: 5, authority: 5, recency: 3}
+
+  - title: "What We Learned from a Year of Building with LLMs"
+    url: https://applied-llms.org/
+    author: Yan, Bischof, Frye, Husain, Liu, Shankar
+    year: 2024
+    type: guide
+    category: ai-stack
+    summary: "Tactical, operational and strategic lessons from six practitioners — the closest thing to a field manual for applied LLM work."
+    scores: {relevance: 4, depth: 5, practicality: 5, authority: 5, recency: 3}
+
+  - title: "Model Context Protocol — documentation"
+    url: https://modelcontextprotocol.io/
+    author: MCP project
+    year: 2026
+    type: docs
+    category: ai-stack
+    summary: "The standard way to connect models to a customer's tools and data. Increasingly expected knowledge in FDE loops."
+    scores: {relevance: 4, depth: 4, practicality: 5, authority: 5, recency: 5}
+
+  - title: "Claude Cookbooks"
+    url: https://github.com/anthropics/claude-cookbooks
+    author: Anthropic
+    year: 2026
+    type: repo
+    category: ai-stack
+    summary: "Runnable notebooks for RAG, tool use, classification and extraction — ready-made starting points for customer prototypes."
+    scores: {relevance: 3, depth: 4, practicality: 5, authority: 5, recency: 5}
+
+  - title: "OpenAI Cookbook"
+    url: https://cookbook.openai.com/
+    author: OpenAI
+    year: 2026
+    type: docs
+    category: ai-stack
+    summary: "Large library of worked examples; good for rapid prototyping in the first week of an engagement."
+    scores: {relevance: 3, depth: 4, practicality: 5, authority: 5, recency: 5}
+
+  - title: "Patterns for Building LLM-based Systems & Products"
+    url: https://eugeneyan.com/writing/llm-patterns/
+    author: Eugene Yan
+    year: 2023
+    type: article
+    category: ai-stack
+    summary: "Seven patterns (evals, RAG, fine-tuning, caching, guardrails, defensive UX, feedback) with references."
+    scores: {relevance: 3, depth: 5, practicality: 4, authority: 5, recency: 2}
+
+  # ---------------- 6. Data / systems ----------------
+  - title: "Designing Data-Intensive Applications"
+    url: https://dataintensive.net/
+    author: Martin Kleppmann
+    year: 2017
+    type: book
+    category: data-systems
+    summary: "The reference for reasoning about the customer databases, queues and pipelines you will be integrating with."
+    scores: {relevance: 3, depth: 5, practicality: 3, authority: 5, recency: 2}
+
+  - title: "Enterprise Integration Patterns"
+    url: https://www.enterpriseintegrationpatterns.com/
+    author: Gregor Hohpe & Bobby Woolf
+    year: 2003
+    type: reference
+    category: data-systems
+    summary: "Vocabulary for connecting legacy systems — messaging, routing, transformation. Still how enterprises think."
+    scores: {relevance: 3, depth: 5, practicality: 4, authority: 5, recency: 1}
+
+  - title: "Select Star SQL"
+    url: https://selectstarsql.com/
+    author: Zi Chong Kao
+    year: 2020
+    type: course
+    category: data-systems
+    summary: "Free interactive SQL book. Fast way to get fluent before customer data work."
+    scores: {relevance: 3, depth: 3, practicality: 5, authority: 4, recency: 2}
+
+  - title: "dbt Fundamentals"
+    url: https://learn.getdbt.com/courses/dbt-fundamentals
+    author: dbt Labs
+    year: 2025
+    type: course
+    category: data-systems
+    summary: "Free course on modern data transformation — common in customer data stacks you will inherit."
+    scores: {relevance: 3, depth: 3, practicality: 5, authority: 4, recency: 4}
+
+  - title: "Palantir Learning (Foundry & AIP)"
+    url: https://learn.palantir.com/
+    author: Palantir
+    year: 2026
+    type: course
+    category: data-systems
+    summary: "Free official training on ontology, pipelines and AIP — the platform most FDSEs deploy."
+    scores: {relevance: 4, depth: 4, practicality: 5, authority: 5, recency: 5}
+
+  - title: "The Twelve-Factor App"
+    url: https://12factor.net/
+    author: Adam Wiggins (Heroku)
+    year: 2011
+    type: reference
+    category: data-systems
+    summary: "Deployment and configuration discipline that keeps customer-specific code maintainable."
+    scores: {relevance: 3, depth: 3, practicality: 4, authority: 5, recency: 1}
+
+  # ---------------- 7. Soft stack ----------------
+  - title: "The Mom Test"
+    url: https://www.momtestbook.com/
+    author: Rob Fitzpatrick
+    year: 2013
+    type: book
+    category: soft-stack
+    summary: "How to run discovery conversations that surface real problems instead of polite compliments. Essential for scoping."
+    scores: {relevance: 4, depth: 4, practicality: 5, authority: 4, recency: 2}
+
+  - title: "The Pyramid Principle (summary)"
+    url: https://medium.com/lessons-from-mckinsey/the-pyramid-principle-f0885dd3c5c7
+    author: Lessons from McKinsey
+    year: 2016
+    type: article
+    category: soft-stack
+    summary: "Answer first, then support. The structure for every executive update and decomposition interview."
+    scores: {relevance: 4, depth: 3, practicality: 5, authority: 3, recency: 1}
+
+  - title: "The Trusted Advisor"
+    url: https://trustedadvisor.com/books/the-trusted-advisor
+    author: David Maister, Charles Green, Robert Galford
+    year: 2000
+    type: book
+    category: soft-stack
+    summary: "The trust equation (credibility + reliability + intimacy over self-orientation) — how FDEs earn the right to change a customer's workflow."
+    scores: {relevance: 3, depth: 4, practicality: 4, authority: 4, recency: 1}
+
+  - title: "A Day in the Life of a Palantir Deployment Strategist"
+    url: https://blog.palantir.com/a-day-in-the-life-of-a-palantir-deployment-strategist-951cb59a5a96
+    author: Palantir
+    year: 2020
+    type: article
+    category: soft-stack
+    summary: "The non-engineering partner of the FDSE — shows the stakeholder side of a deployment you will work alongside."
+    scores: {relevance: 4, depth: 3, practicality: 3, authority: 5, recency: 2}
+
+  # ---------------- 8. Roadmaps ----------------
+  - title: "Awesome-FDE-Roadmap"
+    url: https://github.com/pierpaolo28/Awesome-FDE-Roadmap
+    author: Pier Paolo Ippolito
+    year: 2026
+    type: repo
+    category: roadmaps
+    summary: "Three-phase roadmap (data engineering, GCP cloud, consulting mindset). Strong on data; GCP-centric and light on hands-on labs."
+    scores: {relevance: 5, depth: 4, practicality: 3, authority: 3, recency: 5}
+
+  - title: "awesome-forward-deployed-engineering"
+    url: https://github.com/HamzaShaikh17/awesome-forward-deployed-engineering
+    author: Hamza Shaikh
+    year: 2026
+    type: repo
+    category: roadmaps
+    summary: "Production-first engineering playbook for AI FDEs."
+    scores: {relevance: 5, depth: 3, practicality: 3, authority: 2, recency: 5}
+
+  - title: "forward-deployed-engineer-roadmap"
+    url: https://github.com/thecoder8890/forward-deployed-engineer-roadmap
+    author: thecoder8890
+    year: 2026
+    type: repo
+    category: roadmaps
+    summary: "Step-by-step path from coding and system design to customer problems and deployment impact."
+    scores: {relevance: 5, depth: 3, practicality: 3, authority: 2, recency: 5}
+
+  - title: "GitHub topic: forward-deployed-engineer"
+    url: https://github.com/topics/forward-deployed-engineer
+    author: GitHub
+    year: 2026
+    type: reference
+    category: roadmaps
+    summary: "Live index of every repo tagged with the topic — check it for new projects."
+    scores: {relevance: 4, depth: 1, practicality: 2, authority: 3, recency: 5}
+
+  # ---------------- 9. Jobs ----------------
+  - title: "FDE Job Market report"
+    url: https://joinplank.com/fde-job-market
+    author: Plank
+    year: 2026
+    type: data
+    category: jobs
+    summary: "1,300+ live FDE postings across 565 companies; median posted base about $193K, from ~$150K at seed to ~$243K at frontier labs (equity excluded)."
+    scores: {relevance: 5, depth: 4, practicality: 4, authority: 3, recency: 5}
+
+  - title: "Forward Deployed Engineer Job Board (fwddeploy)"
+    url: https://www.fwddeploy.com/jobs
+    author: fwddeploy
+    year: 2026
+    type: job-board
+    category: jobs
+    summary: "Dedicated FDE job board."
+    scores: {relevance: 5, depth: 1, practicality: 4, authority: 2, recency: 5}
+
+  - title: "FDE Pulse — jobs and salaries"
+    url: https://fdepulse.com/
+    author: FDE Pulse
+    year: 2026
+    type: job-board
+    category: jobs
+    summary: "Job listings plus salary data points for FDE roles."
+    scores: {relevance: 5, depth: 2, practicality: 4, authority: 2, recency: 5}
+
+  - title: "Work at a Startup (YC) — search 'forward deployed'"
+    url: https://www.workatastartup.com/
+    author: Y Combinator
+    year: 2026
+    type: job-board
+    category: jobs
+    summary: "YC startups hire FDEs heavily; the best place for early-stage roles."
+    scores: {relevance: 4, depth: 1, practicality: 4, authority: 4, recency: 5}
