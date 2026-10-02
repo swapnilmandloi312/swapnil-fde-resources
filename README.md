@@ -8,7 +8,7 @@ Every resource is scored on a public rubric and can be independently re-ranked b
 [Jev](https://jev-ai.pro/) (TypeSafe AI's evaluation model). Plus field-tested templates,
 an interview practice set, and a 90-day plan.
 
-<sub>47 resources · 9 categories · ranking: transparent rubric (Jev re-rank ready)</sub>
+<sub>48 resources · 9 categories · ranking: transparent rubric (Jev re-rank ready)</sub>
 
 [Top 10](#-top-10--start-here) · [Playbooks](#playbooks--templates) · [Interview](#interview-practice-set) · [90-Day Plan](#90-day-learning-plan) · [Contribute](CONTRIBUTING.md)
 
@@ -188,9 +188,10 @@ _Where FDE roles are posted and what the market pays._
 | Rank | Resource | Summary | Score |
 |:-:|---|---|:-:|
 | 1 | 📊 [FDE Job Market report](https://joinplank.com/fde-job-market)<br><sub>Plank · 2026 · 🥇 Essential</sub> | 1,300+ live FDE postings across 565 companies; median posted base about $193K, from ~$150K at seed to ~$243K at frontier labs (equity excluded). | 81 |
-| 2 | 💼 [FDE Pulse — jobs and salaries](https://fdepulse.com/)<br><sub>FDE Pulse · 2026 · 🥈 Recommended</sub> | Job listings plus salary data points for FDE roles. | 68 |
-| 3 | 💼 [Forward Deployed Engineer Job Board (fwddeploy)](https://www.fwddeploy.com/jobs)<br><sub>fwddeploy · 2026 · 🥉 Useful</sub> | Dedicated FDE job board. | 62 |
-| 4 | 💼 [Work at a Startup (YC) — search 'forward deployed'](https://www.workatastartup.com/)<br><sub>Y Combinator · 2026 · 🥉 Useful</sub> | YC startups hire FDEs heavily; the best place for early-stage roles. | 62 |
+| 2 | 📊 [Nextmove FDE — US posting data, salary and jobs](https://nextmove.md/fde/research)<br><sub>Nextmove · 2026 · 🥇 Essential</sub> | 2,100+ US FDE and related postings from 720+ companies, read from employer careers pages daily; median posted salary $195K, with breakdowns by level, location, coding work and travel, plus a free aggregate CSV. | 81 |
+| 3 | 💼 [FDE Pulse — jobs and salaries](https://fdepulse.com/)<br><sub>FDE Pulse · 2026 · 🥈 Recommended</sub> | Job listings plus salary data points for FDE roles. | 68 |
+| 4 | 💼 [Forward Deployed Engineer Job Board (fwddeploy)](https://www.fwddeploy.com/jobs)<br><sub>fwddeploy · 2026 · 🥉 Useful</sub> | Dedicated FDE job board. | 62 |
+| 5 | 💼 [Work at a Startup (YC) — search 'forward deployed'](https://www.workatastartup.com/)<br><sub>Y Combinator · 2026 · 🥉 Useful</sub> | YC startups hire FDEs heavily; the best place for early-stage roles. | 62 |
 
 <p align="right"><a href="#readme">↑ back to top</a></p>
 
