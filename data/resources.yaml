@@ -445,6 +445,15 @@ resources:
     summary: "1,300+ live FDE postings across 565 companies; median posted base about $193K, from ~$150K at seed to ~$243K at frontier labs (equity excluded)."
     scores: {relevance: 5, depth: 4, practicality: 4, authority: 3, recency: 5}
 
+  - title: "Nextmove FDE — US posting data, salary and jobs"
+    url: https://nextmove.md/fde/research
+    author: Nextmove
+    year: 2026
+    type: data
+    category: jobs
+    summary: "2,100+ US FDE and related postings from 720+ companies, read from employer careers pages daily; median posted salary $195K, with breakdowns by level, location, coding work and travel, plus a free aggregate CSV."
+    scores: {relevance: 5, depth: 4, practicality: 4, authority: 3, recency: 5}
+
   - title: "Forward Deployed Engineer Job Board (fwddeploy)"
     url: https://www.fwddeploy.com/jobs
     author: fwddeploy
