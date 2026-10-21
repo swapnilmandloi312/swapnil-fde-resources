@@ -280,4 +280,3 @@ If this helped you, a ⭐ helps others find it.
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE) — to the extent possible under law, the maintainer has waived all copyright to this list. Linked resources belong to their authors.
-
