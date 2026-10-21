@@ -16,6 +16,21 @@ an interview practice set, and a 90-day plan.
 
 ---
 
+## Practical learning collections
+
+Pair this resource list with [six original learning collections](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections) from Swapnil AI Labs. They are hosted as self-contained folders in the companion FDE repository.
+
+| Collection | What to do with it |
+|---|---|
+| [FDE Field Drills](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/fde-field-drills) | Solve three synthetic cases, compare worked answers, and run an exact ticket-count baseline |
+| [AI System Design Patterns](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/ai-system-design-patterns) | Review eight architectures through invariants, failure cases, and exercises |
+| [Open-source AI Engineering](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/open-source-ai-engineering) | Browse 54 open-source entries in 14 categories, with eight additional references classified separately |
+| [Meta Muse Practical Guide](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/meta-muse-practical-guide) | Frame a first task and inspect evidence, boundaries, and output |
+| [ChatGPT dots Practical Guide](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/chatgpt-dots-practical-guide) | Learn setup, connected context, ongoing responsibilities, and review |
+| [Grok Bot Practical Guide](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/grok-bot-practical-guide) | Create a role, structure a handoff, and review the actual result |
+
+The catalog includes a JSON snapshot and a Python browser. Each entry has an original use-case note, an exercise, and dated repository/README evidence. Proprietary products, open cores, custom-license projects, and archived references are not silently treated as unrestricted open source. Product recipes are proposed exercises, not account-tested benchmarks. Companion material has its own MIT License; linked projects retain their terms.
+
 ## What is a Forward Deployed Engineer?
 
 An FDE is a software engineer who works **embedded with a customer** rather than behind a product team.
@@ -105,3 +120,4 @@ If this helped you, a ⭐ helps others find it.
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE) — to the extent possible under law, the maintainer has waived all copyright to this list. Linked resources belong to their authors.
+
